@@ -9,12 +9,7 @@ require_once '../vendor/autoload.php';
 $app = new \Slim\App([]);
 
 
-
-$app->get('[/]', function (Request $request, Response $response) {    
-    $response->getBody()->write("GET => Bienvenido!!! ,a SlimFramework");
-    return $response;
-
-});
+echo "Hola mundo";
 
 
 $app->run();

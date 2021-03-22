@@ -9,7 +9,8 @@ require_once '../vendor/autoload.php';
 $app = new \Slim\App([]);
 
 
-echo "Hola mundo";
+echo "Hola mundo"; 
+echo "Hola mundo"; 
 
 
 $app->run();

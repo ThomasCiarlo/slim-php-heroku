@@ -24,4 +24,3 @@ usuario::MostararUser($arrayuser);
 
 
 $app->run();
-?>
